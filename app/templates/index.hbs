@@ -1,4 +1,10 @@
 <h1>Welcome to Nyumba</h1>
 <p>The Place where we help you live</p>
+Here are the current properties we have
+<ol>
+  {{#each model as |rental|}}
+  {{rental-tile rental=rental}}
+  {{/each}}
+</ol>
 {{#link-to 'contact'}} Click to view contacts {{/link-to}} <br>
 {{#link-to 'about'}} Click to view About Us{{/link-to}}

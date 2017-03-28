@@ -22,7 +22,7 @@ module.exports = function(environment) {
      databaseURL: "https://nyumba-af5d0.firebaseio.com",
      storageBucket: "nyumba-af5d0.appspot.com",
      messagingSenderId: "1083967307553"
-    };
+   },
     APP: {
       // Here you can pass flags/options to your application instance
       // when it is created

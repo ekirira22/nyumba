@@ -1,0 +1,14 @@
+
+rentals: [{
+  "owner" : "Eric Madguy",
+  "description" : "Kempinski Flats, 4 stories, 2 bedroom ensuites and a Presidential suite",
+  "area" : "Westlands",
+  "cost" : "2 bedrooms : $1800 per Month, Presidential Suite : $3000 per Month",
+  "image" :"http://www.royalpolynesiahotel.com/images/huahine/ocean-bungalows-02.jpg"
+}, {
+  "owner" : "Badguy Kilasi",
+  "description" : "Get a house from the best Landlord in town . Come one come all and get affordable housing. BUngalows have 5 bedrooms and one floor houses have 3 bedrooms",
+  "area" : "Kajiado",
+  "cost" : "5 bedrooms : $18000 per Month, Presidential Suite : $300 per Month",
+  "image" : "https://cdn.pixabay.com/photo/2012/04/16/11/11/house-35535_960_720.png"
+}]

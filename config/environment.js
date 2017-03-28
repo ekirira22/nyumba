@@ -16,13 +16,13 @@ module.exports = function(environment) {
         Date: false
       }
     },
-  firebase: {
-   apiKey: "AIzaSyBlJyxD93N254uSH_ONOI9wh2FbxgQwGvg",
-   authDomain: "nyumba-af5d0.firebaseapp.com",
-   databaseURL: "https://nyumba-af5d0.firebaseio.com",
-   storageBucket: "nyumba-af5d0.appspot.com",
-   messagingSenderId: "1083967307553"
- };
+    firebase: {
+     apiKey: "AIzaSyBlJyxD93N254uSH_ONOI9wh2FbxgQwGvg",
+     authDomain: "nyumba-af5d0.firebaseapp.com",
+     databaseURL: "https://nyumba-af5d0.firebaseio.com",
+     storageBucket: "nyumba-af5d0.appspot.com",
+     messagingSenderId: "1083967307553"
+    };
     APP: {
       // Here you can pass flags/options to your application instance
       // when it is created

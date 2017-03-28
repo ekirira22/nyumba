@@ -1,9 +1,12 @@
 <li>
   {{rental.owner}}'s {{rental.description}} in {{rental.area}} that goes for {{rental.cost}}
+
   {{#if isImageShowing }}
     <p><img src={{rental.image}} alt={{rental.area}} ></p>
     <button {{action 'hideImage'}}>Hide image</button>
   {{else}}
     <button {{action 'showImage'}}>Show image</button>
   {{/if}}
+  <button {{action 'delete' rental}}>Delete a property</button>
 </li>
+<button {{action 'addprop' rental}}>Add a property</button>

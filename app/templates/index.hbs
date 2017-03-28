@@ -3,7 +3,7 @@
 Here are the current properties we have
 <ol>
   {{#each model as |rental|}}
-  {{rental-tile rental=rental}}
+  {{rental-tile rental=rental destroyRental= "destroyRental"}}
   {{/each}}
 </ol>
 {{#link-to 'contact'}} Click to view contacts {{/link-to}} <br>
